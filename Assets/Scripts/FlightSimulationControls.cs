@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
-public class FlightSim : MonoBehaviour
+public class FlightSimulationControls : MonoBehaviour
 {
     [SerializeField] private Transform m_flight1;
     [SerializeField] private Transform m_Joystick_PositionMovement;
